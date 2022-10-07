@@ -1,12 +1,15 @@
-import React from 'react'
-// import timeline from '../components/timeline/timeline.svg'
-import Timeline from '../components/timeline/Timeline'
-import './timelinePage.css'
+import React from "react";
+import Timeline from "../components/timeline/Timeline";
+import "./timelinePage.css";
 
-function TimelinePage(){
-    return <div className='timeline-page'>
+function TimelinePage() {
+  return (
+    <div className="timeline-page">
+      <div className="timeline-page__timeline">
         <Timeline />
+      </div>
     </div>
+  );
 }
 
-export default TimelinePage
+export default TimelinePage;

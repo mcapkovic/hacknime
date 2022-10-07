@@ -2,7 +2,6 @@ import * as React from "react"
 
 const SvgComponent = (props) => (
   <svg
-    className="timeline-page__timeline"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 825.032 1460.182"
     // width={1650.065}

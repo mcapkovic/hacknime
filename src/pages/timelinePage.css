@@ -1,9 +1,10 @@
-.timeline-page{
-    display: flex;
-    justify-content: center;
+.timeline-page {
+  display: flex;
+  justify-content: center;
 }
 
-.timeline-page__timeline{
-    width: 100%;
-    max-width: 900px
+.timeline-page__timeline {
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem;
 }
