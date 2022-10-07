@@ -1,5 +1,6 @@
 import './App.css';
 import TimelinePage from './pages/TimelinePage.jsx'
+import StoryPage from './pages/StoryPage.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -10,14 +11,15 @@ const router = createBrowserRouter([
     path: "/",
     element:  <TimelinePage /> ,
   },
+  {
+    path: "/story",
+    element: <StoryPage/> ,
+  },
 ]);
 
 function App() {
   return (
     <RouterProvider router={router} />
-    // <div >
-    //   <TimelinePage /> 
-    // </div>
   );
 }
 
