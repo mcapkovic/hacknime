@@ -1,0 +1,9 @@
+.timeline-page{
+    display: flex;
+    justify-content: center;
+}
+
+.timeline-page__timeline{
+    width: 100%;
+    max-width: 900px
+}
