@@ -102,6 +102,7 @@ const SvgComponent = (props) => (
       {"45"}
     </text>
     <text
+      id='date'
       y={83}
       fontFamily="Virgil, Segoe UI Emoji"
       fontSize={92.964}

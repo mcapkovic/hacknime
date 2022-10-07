@@ -1,6 +1,5 @@
 import React from "react";
 import Story from "../components/stories/Story";
-import "./timelinePage.css";
 
 function TimelinePage() {
   return (
