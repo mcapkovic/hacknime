@@ -1,9 +1,11 @@
 import "./App.css";
 import TimelinePage from "./pages/TimelinePage.jsx";
-import StoryPage from "./pages/StoryPage.jsx";
+import StoryPage from "./pages/StoryDefaultPage.jsx";
 import StoriesPage from "./pages/StoriesPage.jsx";
 import FaqPage from "./pages/FaqPage.jsx";
 import TagsPage from "./pages/TagsPage.jsx";
+import StoryExamplePage from "./pages/StoryExamplePage.jsx";
+
 import TagPage from "./pages/TagPage.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
 import DetailPage from './pages/DetailPage.jsx'
@@ -52,7 +54,7 @@ const router = createBrowserRouter([
       },
       {
         path: ":tags",
-        element: <StoriesPage />,
+        element: <StoryExamplePage />,
       },
       {
         path: "faq",
@@ -62,7 +64,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/tags",
-    element: <TagsPage />,
+    element: <TimelinePage/>,
     children: [
       {
         path: "tag",

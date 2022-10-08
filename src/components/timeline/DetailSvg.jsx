@@ -113,6 +113,7 @@ const SvgComponent = (props) => (
       fontSize={47.402}
       style={{ whiteSpace: "pre" }}
       transform="translate(149.497 662.145)"
+      id='story'
     >
       {"Pr\xEDbehy"}
     </text>
