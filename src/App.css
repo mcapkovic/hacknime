@@ -1,9 +1,9 @@
-.timeline-page {
+.page {
   display: flex;
   justify-content: center;
 }
 
-.timeline-page__timeline {
+.page__content {
   width: 100%;
   max-width: 900px;
   margin: 2rem;

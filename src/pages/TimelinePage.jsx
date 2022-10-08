@@ -15,8 +15,8 @@ function TimelinePage() {
     },[navigate])
 
   return (
-    <div className="timeline-page">
-      <div className="timeline-page__timeline">
+    <div className="page">
+      <div className="page__content">
         <Menu />
         <Timeline />
       </div>

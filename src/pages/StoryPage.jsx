@@ -4,8 +4,8 @@ import Menu from "../components/menu/Menu";
 
 function TimelinePage() {
   return (
-    <div className="timeline-page">
-      <div className="timeline-page__timeline">
+    <div className="page">
+      <div className="page__content">
         <Menu />
         <Story />
       </div>
