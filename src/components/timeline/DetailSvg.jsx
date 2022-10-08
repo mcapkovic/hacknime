@@ -2,9 +2,9 @@ import * as React from "react"
 const SvgComponent = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 845.016 3027.713"
+    viewBox="0 0 845.016 2944.011"
     // width={1690.033}
-    // height={6055.426}
+    // height={5888.022}
     {...props}
   >
     <symbol id="image-5f97e04e426992d24276a43e655736595309e49b">
@@ -92,29 +92,29 @@ const SvgComponent = (props) => (
       strokeLinecap="round"
     />
     <text
-      y={29.582}
+      y={30}
       fontFamily="Virgil, Segoe UI Emoji"
       fontSize={34.066}
       style={{ whiteSpace: "pre" }}
       transform="translate(18.163 422.221)"
     >
-      {"Tags"}
+      {"T\xE9my"}
     </text>
     <path
-      d="M20.129 841.745c135.9-.06 679.09 1.09 814.89 1.27m-816.17.76c135.83-.48 679.72-2.73 815.68-2.64M238.08 658.713c15.45.12 32.74 2.89 46.74 4.96 14 2.06 27.38 4.1 37.25 7.43 9.87 3.33 17.95 8.27 21.96 12.56 4.01 4.29 4.86 8.98 2.1 13.18-2.77 4.19-9.96 8.58-18.68 11.99-8.73 3.42-20.63 6.09-33.68 8.51-13.06 2.42-29.02 4.92-44.64 6.02-15.62 1.11-32.96 1.18-49.1.62-16.13-.57-33.54-1.75-47.7-4-14.17-2.26-27.44-5.91-37.29-9.56-9.84-3.65-17.97-8.23-21.78-12.35-3.8-4.12-3.62-8.25-1.02-12.36 2.6-4.11 8.23-8.81 16.61-12.31 8.39-3.49 20.57-6.1 33.72-8.64 13.15-2.55 27.17-5.78 45.18-6.62 18.01-.85 50.43 1.04 62.88 1.57 12.46.52 12.41 1.07 11.85 1.6m-21.64-3.23c15.67.32 31.45 3.39 45.32 5.87 13.88 2.49 28.6 5.64 37.95 9.05 9.34 3.41 14.57 7.38 18.14 11.42 3.57 4.03 5.99 8.7 3.29 12.76-2.71 4.07-10.88 8.06-19.51 11.62-8.64 3.56-19.38 7.35-32.3 9.74-12.91 2.4-29.27 3.87-45.21 4.63-15.94.76-34.05.8-50.44-.06-16.38-.85-34.09-2.85-47.86-5.06-13.78-2.21-25.28-4.84-34.8-8.19-9.51-3.35-18.49-7.77-22.29-11.89-3.79-4.12-3.44-8.61-.46-12.85 2.99-4.24 10.04-9.33 18.39-12.6 8.36-3.26 18.82-4.86 31.73-6.98 12.9-2.11 29.74-4.62 45.71-5.68 15.97-1.06 41.8-.32 50.12-.66s-.06-1.81-.19-1.39"
+      d="M20.129 841.745c135.9-.06 679.09 1.09 814.89 1.27m-816.17.76c135.83-.48 679.72-2.73 815.68-2.64M253.433 659.123c15.93.08 33.59 2.7 48.2 4.57 14.6 1.87 28.64 3.59 39.41 6.62 10.76 3.03 19.93 7.58 25.18 11.57 5.24 3.99 7.58 8.35 6.29 12.36-1.29 4-6.77 8.23-14.03 11.66-7.25 3.43-17.57 6.22-29.5 8.92-11.92 2.7-26.84 5.62-42.06 7.28-15.23 1.66-32.49 2.45-49.28 2.65-16.78.2-35.39-.06-51.45-1.46-16.07-1.39-31.95-4.08-44.92-6.92-12.97-2.84-25-6.6-32.9-10.13-7.89-3.53-12.5-7.17-14.48-11.06-1.99-3.9-1.4-8.56 2.58-12.31 3.99-3.75 11.65-6.87 21.31-10.17 9.66-3.3 22.72-7.46 36.66-9.61 13.95-2.15 28.37-2.77 47.01-3.28 18.64-.52 52-.11 64.84.2 12.83.32 12.58 1.26 12.17 1.68m-54.16-2.26c15.86-.43 36.58.63 52.42 1.87 15.85 1.23 29.74 3.08 42.66 5.53 12.92 2.46 26.57 5.82 34.87 9.2 8.29 3.37 12.42 7.13 14.9 11.05 2.49 3.91 3.34 8.64.01 12.45-3.32 3.82-10.57 7.34-19.98 10.43-9.4 3.09-22.4 6.04-36.46 8.13-14.06 2.09-31.65 3.48-47.9 4.42-16.26.94-32.95 1.67-49.65 1.21-16.7-.45-35.68-2.02-50.56-3.96-14.88-1.95-28.14-4.56-38.7-7.7-10.56-3.13-18.89-7.66-24.68-11.11-5.79-3.45-10.29-5.95-10.05-9.58.24-3.62 4.75-8.44 11.46-12.17 6.72-3.74 16.94-7.06 28.81-10.26 11.87-3.19 26.84-7.18 42.42-8.92 15.59-1.74 42.6-1.44 51.08-1.52 8.48-.09-.17.31-.2 1.01"
       stroke="#000"
       strokeWidth={4}
       fill="none"
       strokeLinecap="round"
     />
     <text
-      y={42.892}
+      y={42}
       fontFamily="Virgil, Segoe UI Emoji"
       fontSize={47.402}
       style={{ whiteSpace: "pre" }}
-      transform="translate(156.573 662.145)"
+      transform="translate(149.497 662.145)"
     >
-      {"Story"}
+      {"Pr\xEDbehy"}
     </text>
     <path
       d="M54.947 704.86c1.208-.555 6.534-1.846 7.332-4.55.795-2.713-1.51-6.337-2.545-11.705-1.034-5.368-1.084-16.32-3.648-20.498-2.559-4.19-7.186-5.347-11.714-4.617-4.524.716-13.08 4.348-15.44 8.976-2.365 4.619-1.882 14.563 1.263 18.755 3.154 4.187 13.535 4.283 17.641 6.38 4.116 2.091 5.864 5.093 7.03 6.192m1.48-.825c1.406-.913 6.532-2.96 7.164-5.122.642-2.167-2.124-3.003-3.332-7.87-1.204-4.88-1.085-17.17-3.876-21.385-2.782-4.218-8.161-5.022-12.837-3.926-4.686 1.102-13.126 6.28-15.239 10.516-2.1 4.241-1 11.302 2.593 14.92 3.598 3.626 15.121 4.158 19.003 6.812 3.887 2.64 3.41 8.033 4.295 9.075"
@@ -124,21 +124,21 @@ const SvgComponent = (props) => (
       strokeLinecap="round"
     />
     <path
-      d="M55.484 703.264c1.285 1.231 5.216 8.332 7.278 8.605 2.066.281 5.315-4.998 5.106-6.941-.223-1.947-4.612-4.637-6.405-4.713-1.788-.068-3.402 3.443-4.336 4.265m-1.832 1.349c1.151.985 4.1 4.987 6.188 5.041 2.102.058 6.335-3.122 6.4-4.694.063-1.571-4.14-4.677-6.025-4.73-1.877-.059-4.343 3.938-5.268 4.386M56.002 701.783c-1.34-1.83-6.44-8.83-7.24-11.92-.8-3.1.5-8.37 2.42-6.66 1.92 1.71 7.48 14.34 9.09 16.92m-2.62 1.02c-1.37-2.2-8-10.43-9.25-13.3-1.25-2.86-.29-5.57 1.76-3.9 2.04 1.67 8.89 11.47 10.5 13.92M57.19 783.539c1.083-1.082 7.235-2.682 7.892-5.1.666-2.42-2.965-4.209-3.927-9.423-.972-5.21.698-17.277-1.87-21.839-2.571-4.57-9.046-6.419-13.555-5.555-4.514.856-11.03 6.182-13.503 10.709-2.483 4.53-4.515 12.781-1.362 16.472 3.144 3.696 15.763 3.053 20.245 5.69 4.473 2.643 5.417 8.362 6.624 10.16m2.174.02c1.185-.345 4.814-1.58 4.725-4.41-.088-2.83-4.434-7.133-5.238-12.576-.818-5.447 2.373-15.61.386-20.112-1.996-4.498-7.414-7.648-12.332-6.902-4.913.756-14.58 6.498-17.153 11.402-2.582 4.909-1.608 14.39 1.693 18.068 3.301 3.677 13.628 1.888 18.105 3.998 4.478 2.11 7.255 6.86 8.751 8.689"
+      d="M55.484 703.264c1.285 1.231 5.216 8.332 7.278 8.605 2.066.281 5.315-4.998 5.106-6.941-.223-1.947-4.612-4.637-6.405-4.713-1.788-.068-3.402 3.443-4.336 4.265m-1.832 1.349c1.151.985 4.1 4.987 6.188 5.041 2.102.058 6.335-3.122 6.4-4.694.063-1.571-4.14-4.677-6.025-4.73-1.877-.059-4.343 3.938-5.268 4.386M56.002 701.783c-1.34-1.83-6.44-8.83-7.24-11.92-.8-3.1.5-8.37 2.42-6.66 1.92 1.71 7.48 14.34 9.09 16.92m-2.62 1.02c-1.37-2.2-8-10.43-9.25-13.3-1.25-2.86-.29-5.57 1.76-3.9 2.04 1.67 8.89 11.47 10.5 13.92M57.07 792.25c1.084-1.081 7.236-2.682 7.893-5.099.666-2.42-2.965-4.21-3.928-9.423-.971-5.21.698-17.277-1.869-21.84-2.571-4.57-9.047-6.418-13.556-5.554-4.513.855-11.03 6.182-13.503 10.708-2.482 4.53-4.515 12.782-1.362 16.473 3.145 3.695 15.763 3.052 20.245 5.69 4.473 2.643 5.418 8.362 6.625 10.16m2.173.02c1.186-.346 4.814-1.581 4.726-4.41-.089-2.83-4.434-7.134-5.239-12.576-.817-5.448 2.373-15.61.386-20.113-1.996-4.498-7.413-7.647-12.33-6.901-4.914.755-14.581 6.498-17.154 11.402-2.582 4.908-1.608 14.39 1.693 18.067 3.3 3.677 13.627 1.889 18.105 3.999 4.477 2.11 7.255 6.86 8.751 8.688"
       stroke="#000"
       strokeWidth={2}
       fill="none"
       strokeLinecap="round"
     />
     <path
-      d="M58.884 783.544c2.347 3.413 4.039 4.872 4.984 6.76m-4.915-6.448c2.056 2.531 4.602 5.271 6.084 6.829m-1.343.276c3.689-2.938 5.237-3.951 6.755-6.701m-5.569 6.216c1.43-1.234 2.595-2.346 5.715-5.858m-.57-.075c-1.203-1.51-3.407-4.718-4.49-5.45m5.05 5.733c-1.731-1.837-3.866-4.306-5.156-6.01m-.937-.184c-2.146 1.953-3.986 3.104-5.752 4.612m6.472-4.396c-1.79 1.75-3.536 2.64-5.838 4.348"
+      d="M58.765 792.255c2.347 3.414 4.038 4.873 4.984 6.76m-4.915-6.447c2.056 2.53 4.602 5.27 6.084 6.828m-1.343.276c3.688-2.938 5.237-3.95 6.755-6.7m-5.57 6.216c1.431-1.235 2.596-2.346 5.715-5.859m-.57-.075c-1.202-1.51-3.406-4.718-4.49-5.45m5.05 5.733c-1.73-1.837-3.866-4.305-5.156-6.009m-.937-.184c-2.146 1.952-3.985 3.104-5.751 4.612m6.471-4.396c-1.79 1.749-3.535 2.639-5.838 4.347"
       stroke="#000"
       strokeWidth={2}
       fill="none"
       strokeLinecap="round"
     />
     <path
-      d="M59.455 779.698c-1.31-2.35-5.95-5.97-10.42-9.3m10.91 9.44c-3.32-2.76-5.94-5.65-9.36-10.38m-.56.06c1.06-2.31 2.48-3.32 3.63-6.39m-3.45 6.1c1.23-1.91 2.44-3.6 3.75-5.3m-1.32-.81c5.31 5.81 6.5 10.13 10.75 16.57m-9.64-16.52c3.78 5.72 5.95 11.77 9.04 16.51"
+      d="M59.336 788.41c-1.31-2.35-5.95-5.97-10.42-9.3m10.91 9.44c-3.32-2.76-5.94-5.65-9.36-10.38m-.56.06c1.06-2.31 2.48-3.32 3.63-6.39m-3.45 6.1c1.23-1.91 2.44-3.6 3.75-5.3m-1.32-.81c5.31 5.81 6.5 10.13 10.75 16.57m-9.64-16.52c3.78 5.72 5.95 11.77 9.04 16.51"
       stroke="#000"
       strokeWidth={2}
       fill="none"
@@ -162,22 +162,22 @@ const SvgComponent = (props) => (
     />
     <g strokeLinecap="round">
       <path
-        d="m37.216 483.502 165.43 1.61 5.24 2.92-1.89 31.54-2.69 3.93-5.92 3.98-164.45-3.81-7.09-5.24 1.79-25.08.53-7.78 8.73-2.55"
+        d="m37.027 483.685 165.43 1.61 5.24 2.92-1.89 31.54-2.69 3.93-5.92 3.98-164.45-3.81-7.09-5.24 1.79-25.08.53-7.78 8.73-2.55"
         strokeWidth={0}
         fill="#868e96"
       />
       <path
-        d="M37.626 483.422c36.34 3.25 73.81 2.85 158.67 0m-158.67 0c56.65 1.92 111.4.44 158.67 0m0 0c7.51.83 11.59 4.12 10.65 10.65m-10.65-10.65c8.2 1.49 9 3.57 10.65 10.65m0 0c.56 5.73.5 9.47 0 21.29m0-21.29c.35 4.91-.78 10.38 0 21.29m0 0c-.94 7.15-5 10.47-10.65 10.64m10.65-10.64c-1.27 9.33-4.37 11.17-10.65 10.64m0 0c-45.13-2.51-90.59-.79-158.67 0m158.67 0c-60.49 2.54-119.53 2.09-158.67 0m0 0c-5.58-1.19-11.44-1.82-10.65-10.64m10.65 10.64c-5.69.35-10.31-3.39-10.65-10.64m0 0c1.93-9.4 2-17.24 0-21.29m0 21.29c-.11-5.9.31-11.92 0-21.29m0 0c-.31-5.1 3.64-9.38 10.65-10.65m-10.65 10.65c1.42-7.55 3.3-12.09 10.65-10.65"
+        d="M37.437 483.605c36.34 3.25 73.81 2.85 158.67 0m-158.67 0c56.65 1.92 111.4.44 158.67 0m0 0c7.51.83 11.59 4.12 10.65 10.65m-10.65-10.65c8.2 1.49 9 3.57 10.65 10.65m0 0c.56 5.73.5 9.47 0 21.29m0-21.29c.35 4.91-.78 10.38 0 21.29m0 0c-.94 7.15-5 10.47-10.65 10.64m10.65-10.64c-1.27 9.33-4.37 11.17-10.65 10.64m0 0c-45.13-2.51-90.59-.79-158.67 0m158.67 0c-60.49 2.54-119.53 2.09-158.67 0m0 0c-5.58-1.19-11.44-1.82-10.65-10.64m10.65 10.64c-5.69.35-10.31-3.39-10.65-10.64m0 0c1.93-9.4 2-17.24 0-21.29m0 21.29c-.11-5.9.31-11.92 0-21.29m0 0c-.31-5.1 3.64-9.38 10.65-10.65m-10.65 10.65c1.42-7.55 3.3-12.09 10.65-10.65"
         stroke="#000"
         fill="none"
       />
     </g>
     <text
-      y={19.057}
+      y={20}
       fontFamily="Virgil, Segoe UI Emoji"
       fontSize={22.667}
       style={{ whiteSpace: "pre" }}
-      transform="translate(88.423 492.204)"
+      transform="translate(88.233 492.204)"
     >
       {"Vojna"}
     </text>
@@ -246,12 +246,12 @@ const SvgComponent = (props) => (
     </text>
     <g strokeLinecap="round">
       <path
-        d="M28.76 961.589h400.41v58.04H28.76"
+        d="M28.76 964.852h528.75v51.51H28.76"
         strokeWidth={0}
         fill="#2f3e51"
       />
       <path
-        d="M28.76 961.589h400.41m-400.41 0h400.41m0 0v58.04m0-58.04v58.04m0 0H28.76m400.41 0H28.76m0 0v-58.04m0 58.04v-58.04"
+        d="M28.76 964.852h528.75m-528.75 0h528.75m0 0v51.51m0-51.51v51.51m0 0H28.76m528.75 0H28.76m0 0v-51.51m0 51.51v-51.51"
         stroke="#2f3e51"
         fill="none"
       />
@@ -267,14 +267,14 @@ const SvgComponent = (props) => (
       {"1945"}
     </text>
     <text
-      y={27.986}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={28}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={31.1}
       fill="#fff"
       style={{ whiteSpace: "pre" }}
       transform="translate(74.9 970.398)"
     >
-      {"Lorem ipsum"}
+      {"Slovensk\xE9 N\xE1rodn\xE9 povstanie"}
     </text>
     <g strokeLinecap="round">
       <path
@@ -289,88 +289,88 @@ const SvgComponent = (props) => (
       />
     </g>
     <text
-      y={19.768}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={19.625}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.214}
       fill="#fff"
       style={{ whiteSpace: "pre" }}
-      transform="translate(67.785 1078.51)"
+      transform="translate(68.181 1078.51)"
     >
       {"Aliquam sed magna quam. Proin interdum id purus Bibendum "}
     </text>
     <text
-      y={47.536}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={45.25}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.214}
       fill="#fff"
       style={{ whiteSpace: "pre" }}
-      transform="translate(67.785 1078.51)"
+      transform="translate(68.181 1078.51)"
     >
       {"feugiat. Integer vitae est magna. Nunc fermentum vel elit "}
     </text>
     <text
-      y={75.304}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={70.875}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.214}
       fill="#fff"
       style={{ whiteSpace: "pre" }}
-      transform="translate(67.785 1078.51)"
+      transform="translate(68.181 1078.51)"
     >
       {"eu condimentum. Nulla tristique in augue et hendrerit. "}
     </text>
     <text
-      y={103.072}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={96.5}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.214}
       fill="#fff"
       style={{ whiteSpace: "pre" }}
-      transform="translate(67.785 1078.51)"
+      transform="translate(68.181 1078.51)"
     >
       {"Vestibulum tristique turpis id ante egestas, a vehicular libero "}
     </text>
     <text
-      y={130.84}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={122.125}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.214}
       fill="#fff"
       style={{ whiteSpace: "pre" }}
-      transform="translate(67.785 1078.51)"
+      transform="translate(68.181 1078.51)"
     >
       {"suscipit. In viverra tempus odio, sit amet pellentesque diam "}
     </text>
     <text
-      y={158.608}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={147.75}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.214}
       fill="#fff"
       style={{ whiteSpace: "pre" }}
-      transform="translate(67.785 1078.51)"
+      transform="translate(68.181 1078.51)"
     >
       {"rutrum in. Pellentesque at odio eget risus luctus efficitur. "}
     </text>
     <text
-      y={186.377}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={173.375}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.214}
       fill="#fff"
       style={{ whiteSpace: "pre" }}
-      transform="translate(67.785 1078.51)"
+      transform="translate(68.181 1078.51)"
     >
       {"Interdum et malesuada fames ac ante ipsum primis in faucibus."}
     </text>
     <text
-      y={214.145}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={199}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.214}
       fill="#fff"
       style={{ whiteSpace: "pre" }}
-      transform="translate(67.785 1078.51)"
+      transform="translate(68.181 1078.51)"
     >
       {" Integer congue aliquet efficitur."}
     </text>
     <text
-      y={18.885}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={19.667}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={21.508}
       style={{ whiteSpace: "pre" }}
       transform="translate(53.839 1796.156)"
@@ -378,8 +378,8 @@ const SvgComponent = (props) => (
       {"Sed ac magna tortor. Donec risus odio, rutrum quis tellus volutpat, "}
     </text>
     <text
-      y={45.77}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={44.333}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={21.508}
       style={{ whiteSpace: "pre" }}
       transform="translate(53.839 1796.156)"
@@ -387,8 +387,8 @@ const SvgComponent = (props) => (
       {"ornare vulputate mi. Donec sed ullamcorper ex. Ut sit amet cursus "}
     </text>
     <text
-      y={72.654}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={69}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={21.508}
       style={{ whiteSpace: "pre" }}
       transform="translate(53.839 1796.156)"
@@ -409,8 +409,8 @@ const SvgComponent = (props) => (
       transform="translate(68.26 1378.73)"
     />
     <text
-      y={20.625}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={21.375}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.288 1902.643)"
@@ -418,8 +418,8 @@ const SvgComponent = (props) => (
       {"Aliquam sed magna quam. Proin interdum id purus Bibendum "}
     </text>
     <text
-      y={50.25}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={47.75}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.288 1902.643)"
@@ -427,8 +427,8 @@ const SvgComponent = (props) => (
       {"feugiat. Integer vitae est magna. Nunc fermentum vel elit "}
     </text>
     <text
-      y={79.875}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={74.125}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.288 1902.643)"
@@ -436,8 +436,8 @@ const SvgComponent = (props) => (
       {"eu condimentum. Nulla tristique in augue et hendrerit. "}
     </text>
     <text
-      y={109.5}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={100.5}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.288 1902.643)"
@@ -445,8 +445,8 @@ const SvgComponent = (props) => (
       {"Vestibulum tristique turpis id ante egestas, a vehicular libero "}
     </text>
     <text
-      y={139.125}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={126.875}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.288 1902.643)"
@@ -454,8 +454,8 @@ const SvgComponent = (props) => (
       {"suscipit. In viverra tempus odio, sit amet pellentesque diam "}
     </text>
     <text
-      y={168.75}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={153.25}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.288 1902.643)"
@@ -463,8 +463,8 @@ const SvgComponent = (props) => (
       {"rutrum in. Pellentesque at odio eget risus luctus efficitur. "}
     </text>
     <text
-      y={198.375}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={179.625}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.288 1902.643)"
@@ -472,8 +472,8 @@ const SvgComponent = (props) => (
       {"Interdum et malesuada fames ac ante ipsum primis in faucibus."}
     </text>
     <text
-      y={228}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={206}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.288 1902.643)"
@@ -481,8 +481,8 @@ const SvgComponent = (props) => (
       {" Integer congue aliquet efficitur."}
     </text>
     <text
-      y={20.625}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={21.375}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.597 2162.333)"
@@ -490,8 +490,8 @@ const SvgComponent = (props) => (
       {"Aliquam sed magna quam. Proin interdum id purus Bibendum "}
     </text>
     <text
-      y={50.25}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={47.75}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.597 2162.333)"
@@ -499,8 +499,8 @@ const SvgComponent = (props) => (
       {"feugiat. Integer vitae est magna. Nunc fermentum vel elit "}
     </text>
     <text
-      y={79.875}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={74.125}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.597 2162.333)"
@@ -508,8 +508,8 @@ const SvgComponent = (props) => (
       {"eu condimentum. Nulla tristique in augue et hendrerit. "}
     </text>
     <text
-      y={109.5}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={100.5}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.597 2162.333)"
@@ -517,8 +517,8 @@ const SvgComponent = (props) => (
       {"Vestibulum tristique turpis id ante egestas, a vehicular libero "}
     </text>
     <text
-      y={139.125}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={126.875}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.597 2162.333)"
@@ -526,8 +526,8 @@ const SvgComponent = (props) => (
       {"suscipit. In viverra tempus odio, sit amet pellentesque diam "}
     </text>
     <text
-      y={168.75}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={153.25}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.597 2162.333)"
@@ -535,8 +535,8 @@ const SvgComponent = (props) => (
       {"rutrum in. Pellentesque at odio eget risus luctus efficitur. "}
     </text>
     <text
-      y={198.375}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={179.625}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.597 2162.333)"
@@ -544,8 +544,8 @@ const SvgComponent = (props) => (
       {"Interdum et malesuada fames ac ante ipsum primis in faucibus."}
     </text>
     <text
-      y={228}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={206}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
       transform="translate(49.597 2162.333)"
@@ -553,8 +553,8 @@ const SvgComponent = (props) => (
       {" Integer congue aliquet efficitur."}
     </text>
     <text
-      y={20}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={19.6}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.213}
       style={{ whiteSpace: "pre" }}
       transform="translate(57.946 2434.125)"
@@ -562,8 +562,8 @@ const SvgComponent = (props) => (
       {"Aliquam sed magna quam. Proin "}
     </text>
     <text
-      y={48}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={45.2}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.213}
       style={{ whiteSpace: "pre" }}
       transform="translate(57.946 2434.125)"
@@ -571,8 +571,8 @@ const SvgComponent = (props) => (
       {"interdum id purus Bibendum "}
     </text>
     <text
-      y={76}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={70.8}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.213}
       style={{ whiteSpace: "pre" }}
       transform="translate(57.946 2434.125)"
@@ -580,8 +580,8 @@ const SvgComponent = (props) => (
       {"feugiat. Integer vitae est magna. Nunc "}
     </text>
     <text
-      y={104}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={96.4}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.213}
       style={{ whiteSpace: "pre" }}
       transform="translate(57.946 2434.125)"
@@ -590,20 +590,20 @@ const SvgComponent = (props) => (
     </text>
     <g strokeLinecap="round">
       <path
-        d="m527.117 2429.3 220.46-1.37-1.7 313.44-218.1-1.01"
+        d="m527.117 2429.3 169.03-1.37-1.7 240.62-166.67-1"
         strokeWidth={0}
         fill="#ced4da"
       />
       <path
-        d="M526.047 2431.05c79.51-1.38 155.86-1.85 220.16-1.43m-219.18-.08c85.98-.22 171.48-.07 220.07.76m.66-.68c-.15 68.07.22 135.46-.61 312.25m-.18-311.88c2.51 96.39 3.27 194.5 1.05 311.56m.23-.04c-81.82-.51-159.24.88-219.49-.93m218.55.76c-53.17-1.52-105.89-.33-219.7.43m1.13-.52c-1.74-110.86-1.99-220.33-.45-312.06m-1.34 311.96c1.75-108.98 2.27-218.12.36-311.52"
+        d="M525.817 2431.27c61.49-1.82 119.33-2.37 168.74-1.65m-167.61-.1c66-.24 131.46-.07 168.64.89m.77-.79c-.36 52.47.07 104.13-.71 239.59m-.22-239.15c2.34 73.53 3.24 149.08 1.23 238.76m.26-.05c-63.62-.87-122.18.74-167.98-1.07m166.9.88c-40.79-1.53-81.05-.16-168.22.49m1.32-.59c-2.17-84.99-2.47-168.36-.53-239.37m-1.56 239.25c1.78-83.43 2.39-167.04.42-238.73"
         stroke="#000"
         strokeWidth={4}
         fill="none"
       />
     </g>
     <text
-      y={20}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={19.6}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.213}
       style={{ whiteSpace: "pre" }}
       transform="translate(54.564 2555.998)"
@@ -611,8 +611,8 @@ const SvgComponent = (props) => (
       {"Aliquam sed magna quam. Proin "}
     </text>
     <text
-      y={48}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={45.2}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.213}
       style={{ whiteSpace: "pre" }}
       transform="translate(54.564 2555.998)"
@@ -620,8 +620,8 @@ const SvgComponent = (props) => (
       {"interdum id purus Bibendum "}
     </text>
     <text
-      y={76}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={70.8}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.213}
       style={{ whiteSpace: "pre" }}
       transform="translate(54.564 2555.998)"
@@ -629,8 +629,8 @@ const SvgComponent = (props) => (
       {"feugiat. Integer vitae est magna. Nunc "}
     </text>
     <text
-      y={104}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={96.4}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={22.213}
       style={{ whiteSpace: "pre" }}
       transform="translate(54.564 2555.998)"
@@ -638,74 +638,74 @@ const SvgComponent = (props) => (
       {"fermentum vel elit eu condimentum. Nulla "}
     </text>
     <text
-      y={20.036}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={21.375}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
-      transform="translate(47.64 2785.422)"
+      transform="translate(56.307 2723.01)"
     >
       {"Aliquam sed magna quam. Proin interdum id purus Bibendum "}
     </text>
     <text
-      y={49.073}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={47.75}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
-      transform="translate(47.64 2785.422)"
+      transform="translate(56.307 2723.01)"
     >
       {"feugiat. Integer vitae est magna. Nunc fermentum vel elit "}
     </text>
     <text
-      y={78.109}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={74.125}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
-      transform="translate(47.64 2785.422)"
+      transform="translate(56.307 2723.01)"
     >
       {"eu condimentum. Nulla tristique in augue et hendrerit. "}
     </text>
     <text
-      y={107.145}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={100.5}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
-      transform="translate(47.64 2785.422)"
+      transform="translate(56.307 2723.01)"
     >
       {"Vestibulum tristique turpis id ante egestas, a vehicular libero "}
     </text>
     <text
-      y={136.182}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={126.875}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
-      transform="translate(47.64 2785.422)"
+      transform="translate(56.307 2723.01)"
     >
       {"suscipit. In viverra tempus odio, sit amet pellentesque diam "}
     </text>
     <text
-      y={165.218}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={153.25}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
-      transform="translate(47.64 2785.422)"
+      transform="translate(56.307 2723.01)"
     >
       {"rutrum in. Pellentesque at odio eget risus luctus efficitur. "}
     </text>
     <text
-      y={194.254}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={179.625}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
-      transform="translate(47.64 2785.422)"
+      transform="translate(56.307 2723.01)"
     >
       {"Interdum et malesuada fames ac ante ipsum primis in faucibus."}
     </text>
     <text
-      y={223.291}
-      fontFamily="Virgil, Segoe UI Emoji"
+      y={206}
+      fontFamily="Helvetica, Segoe UI Emoji"
       fontSize={23.229}
       style={{ whiteSpace: "pre" }}
-      transform="translate(47.64 2785.422)"
+      transform="translate(56.307 2723.01)"
     >
       {" Integer congue aliquet efficitur."}
     </text>
@@ -730,9 +730,9 @@ const SvgComponent = (props) => (
     />
     <use
       href="#image-5f97e04e426992d24276a43e655736595309e49b"
-      width={206}
-      height={298}
-      transform="translate(533.291 2435.834)"
+      width={158}
+      height={228}
+      transform="translate(531.953 2434.383)"
     />
   </svg>
 )
