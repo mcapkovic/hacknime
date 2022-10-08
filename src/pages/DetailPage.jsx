@@ -14,6 +14,7 @@ function DetailPage() {
        const elementStory = document.querySelector("#story");
        const elementFaq = document.querySelector("#faq");
 
+
        if(elementStory == null || elementFaq == null) return
        elementStory.onclick = () => navigate("/stories/storyXY");
        elementStory.classList.add("pointer")
