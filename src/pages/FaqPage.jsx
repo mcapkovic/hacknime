@@ -4,20 +4,15 @@ import { useNavigate } from 'react-router-dom';
 import Navigation from '../components/navigation/Navigation'
 
 
-function TimelinePage() {
+function FaqPage() {
     let navigate = useNavigate();
 
     React.useEffect(() => {
         const element  = document.getElementById("date");
-       const allTexts =  document.querySelectorAll("text")
-       allTexts.forEach(element => {
-        element.onclick= () => navigate('stories') 
+        console.log(element)
         element.classList.add("pointer")
-       })
-        // console.log('allTexts', allTexts)
-        // element.classList.add("pointer")
-        // element.onclick= () => navigate('stories') 
-    },[])
+        element.onclick= () => navigate('story') 
+    },[navigate])
 
   return (
     <div className="page">
@@ -29,4 +24,4 @@ function TimelinePage() {
   );
 }
 
-export default TimelinePage;
+export default FaqPage;

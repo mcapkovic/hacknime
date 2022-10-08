@@ -41,24 +41,26 @@ a.navigation__tabs__tab{
   display: flex;
   flex-direction: column-reverse;
   color: transparent;
-  padding-bottom: 2%;
-}
-
-.navigation__tabs__tab svg{
-  margin-top: -15px;
+  padding-bottom: 2.1%;
 }
 
 .navigation__tabs__tab1{
-  width: 22%;
+  width: 15%;
   margin-left: 2%;
 }
 
 .navigation__tabs__tab2{
-  width: 25%;
+  width: 18%;
   margin-left: 1%;
 }
 
 .navigation__tabs__tab3{
-  width: 20%;
-  margin-left: 5%;
+  width: 13%;
+  margin-left: 2%;
+
+}
+
+.navigation__tabs__tab4{
+  width: 13%;
+  margin-left: 2%;
 }
