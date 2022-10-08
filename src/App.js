@@ -31,6 +31,10 @@ const router = createBrowserRouter([
         element: <StoryPage />,
       },
       {
+        path: ":tags",
+        element: <StoriesPage />,
+      },
+      {
         path: "faq",
         element: <FaqPage />,
       },
