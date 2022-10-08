@@ -26,8 +26,10 @@
 .navigation__tabs{
   position: absolute;
   display: flex;
-  font-size: 60px;
-  top: 10px;
+  /* font-size: 60px; */
+  /* top: 10px; */
+  height: 100%;
+  width: 100%;
 }
 
 .navigation__tabs__tab{
@@ -37,7 +39,9 @@
 
 a.navigation__tabs__tab{
   display: flex;
+  flex-direction: column-reverse;
   color: transparent;
+  padding-bottom: 2%;
 }
 
 .navigation__tabs__tab svg{
@@ -45,21 +49,16 @@ a.navigation__tabs__tab{
 }
 
 .navigation__tabs__tab1{
-  width: 190px;
-  margin-left: 20px;
+  width: 22%;
+  margin-left: 2%;
 }
 
 .navigation__tabs__tab2{
-  width: 200px;
-  margin-left: 33px;
+  width: 25%;
+  margin-left: 1%;
 }
 
 .navigation__tabs__tab3{
-  width: 160px;
-  margin-left: 59px;
-}
-
-.navigation__tabs__tab--active{
-  color: red;
-  /* background: url(../public/underline.svg) */
+  width: 20%;
+  margin-left: 5%;
 }

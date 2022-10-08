@@ -16,8 +16,9 @@ function Navigation() {
         >
           {({ isActive }) => (
             <>
-              <div>Timeline</div>
+             
               {isActive ? <UnderlineSvg /> : null}
+              <div>Timeline</div>
             </>
           )}
         </NavLink>
@@ -27,8 +28,9 @@ function Navigation() {
         >
           {({ isActive }) => (
             <>
-              <div>Stories</div>
               {isActive ? <UnderlineSvg /> : null}
+              <div>Stories</div>
+
             </>
           )}
         </NavLink>
@@ -38,8 +40,9 @@ function Navigation() {
         >
           {({ isActive }) => (
             <>
-              <div>Tags</div>
               {isActive ? <UnderlineSvg /> : null}
+              <div>Tags</div>
+
             </>
           )}
         </NavLink>
