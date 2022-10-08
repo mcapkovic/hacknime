@@ -8,6 +8,7 @@ function FaqPage() {
     let navigate = useNavigate();
 
     React.useEffect(() => {
+         window.scrollTo(0, 0);
         const element  = document.getElementById("date");
         console.log(element)
         element.classList.add("pointer")

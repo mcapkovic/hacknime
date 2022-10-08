@@ -5,6 +5,11 @@ import Breadcrumb from '../components/navigation/Breadcrumb'
 
 
 function StoryPage() {
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div className="page">
       <div className="page__content">

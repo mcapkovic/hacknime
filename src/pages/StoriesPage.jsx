@@ -7,6 +7,7 @@ function StoriesPage() {
   let navigate = useNavigate();
 
   React.useEffect(() => {
+     window.scrollTo(0, 0);
      const allTexts =  document.querySelectorAll("text")
      allTexts.forEach(element => {
       element.onclick= () => navigate('story') 
