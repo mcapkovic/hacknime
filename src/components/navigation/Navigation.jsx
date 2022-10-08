@@ -33,12 +33,12 @@ function Navigation() {
           )}
         </NavLink>
         <NavLink
-          to="/faq"
+          to="/tags"
           className="navigation__tabs__tab navigation__tabs__tab3"
         >
           {({ isActive }) => (
             <>
-              <div>Faq</div>
+              <div>Tags</div>
               {isActive ? <UnderlineSvg /> : null}
             </>
           )}
