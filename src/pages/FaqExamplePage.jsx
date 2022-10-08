@@ -7,13 +7,9 @@ import Navigation from '../components/navigation/Navigation'
 function FaqExamplePage() {
     // let navigate = useNavigate();
 
-    // React.useEffect(() => {
-    //      window.scrollTo(0, 0);
-    //     const element  = document.getElementById("date");
-    //     console.log(element)
-    //     element.classList.add("pointer")
-    //     element.onclick= () => navigate('story') 
-    // },[navigate])
+    React.useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
 
   return (
     <div className="page">

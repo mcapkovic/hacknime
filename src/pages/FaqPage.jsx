@@ -1,19 +1,17 @@
 import React from "react";
 import Timeline from "../components/timeline/TimelineSvg";
-import { useNavigate } from 'react-router-dom';
-import Navigation from '../components/navigation/Navigation'
-
+import { useNavigate } from "react-router-dom";
+import Navigation from "../components/navigation/Navigation";
 
 function FaqPage() {
-    let navigate = useNavigate();
+  let navigate = useNavigate();
 
-    React.useEffect(() => {
-         window.scrollTo(0, 0);
-        const element  = document.getElementById("date");
-        console.log(element)
-        element.classList.add("pointer")
-        element.onclick= () => navigate('story') 
-    },[navigate])
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+    const element = document.getElementById("date");
+    element.classList.add("pointer");
+    element.onclick = () => navigate("story");
+  }, []);
 
   return (
     <div className="page">
