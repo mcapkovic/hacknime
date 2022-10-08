@@ -12,10 +12,15 @@ function DetailPage() {
     React.useEffect(() => {
        window.scrollTo(0, 0);
        const elementStory = document.querySelector("#story");
+       const elementFaq = document.querySelector("#faq");
 
-       if(elementStory == null) return
+       if(elementStory == null || elementFaq == null) return
        elementStory.onclick = () => navigate("/stories/storyXY");
        elementStory.classList.add("pointer")
+
+       elementFaq.onclick = () => navigate("/faq/faqYX");
+       elementFaq.classList.add("pointer")
+
     },[])
 
   return (

@@ -5,6 +5,7 @@ import StoriesPage from "./pages/StoriesPage.jsx";
 import FaqPage from "./pages/FaqPage.jsx";
 import TagsPage from "./pages/TagsPage.jsx";
 import StoryExamplePage from "./pages/StoryExamplePage.jsx";
+import FaqExamplePage from './pages/FaqExamplePage.jsx'
 
 import TagPage from "./pages/TagPage.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
@@ -73,8 +74,14 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/about",
-    element: <AboutPage />,
+    path: "/faq",
+    element: <FaqExamplePage />,
+    children: [
+      {
+        path: ":id",
+        element: <FaqExamplePage />,
+      },
+    ],
   },
 ]);
 
