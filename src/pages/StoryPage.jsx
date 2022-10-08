@@ -1,12 +1,12 @@
 import React from "react";
 import Story from "../components/stories/Story";
-import Menu from "../components/menu/Menu";
+import Navigation from '../components/navigation/Navigation'
 
 function TimelinePage() {
   return (
     <div className="page">
       <div className="page__content">
-        <Menu />
+        <Navigation />
         <Story />
       </div>
     </div>

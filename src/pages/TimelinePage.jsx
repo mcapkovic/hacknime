@@ -1,7 +1,7 @@
 import React from "react";
 import Timeline from "../components/timeline/Timeline";
 import { useNavigate } from 'react-router-dom';
-import Menu from '../components/menu/Menu'
+import Navigation from '../components/navigation/Navigation'
 
 
 function TimelinePage() {
@@ -17,7 +17,7 @@ function TimelinePage() {
   return (
     <div className="page">
       <div className="page__content">
-        <Menu />
+        <Navigation />
         <Timeline />
       </div>
     </div>
