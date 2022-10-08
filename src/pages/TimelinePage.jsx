@@ -8,15 +8,11 @@ function TimelinePage() {
     let navigate = useNavigate();
 
     React.useEffect(() => {
-        const element  = document.getElementById("date");
        const allTexts =  document.querySelectorAll("text")
        allTexts.forEach(element => {
-        element.onclick= () => navigate('stories') 
+        element.onclick= () => navigate('stories/story') 
         element.classList.add("pointer")
        })
-        // console.log('allTexts', allTexts)
-        // element.classList.add("pointer")
-        // element.onclick= () => navigate('stories') 
     },[])
 
   return (
