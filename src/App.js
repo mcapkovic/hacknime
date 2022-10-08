@@ -65,7 +65,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/tags",
-    element: <TimelinePage/>,
+    element: <TagsPage/>,
     children: [
       {
         path: "tag",

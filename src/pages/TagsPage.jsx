@@ -1,5 +1,7 @@
 import React from "react";
 import Story from "../components/timeline/DetailSvg";
+import TagsSvg from "../components/tags/TagsSvg";
+
 import Navigation from '../components/navigation/Navigation'
 
 function TagsPage() {
@@ -12,7 +14,7 @@ function TagsPage() {
     <div className="page">
       <div className="page__content">
         <Navigation />
-        <Story />
+        <TagsSvg />
       </div>
     </div>
   );
