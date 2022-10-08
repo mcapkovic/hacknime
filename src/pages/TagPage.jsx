@@ -1,5 +1,5 @@
 import React from "react";
-import Story from "../components/stories/StorySvg";
+import Story from "../components/timeline/DetailSvg";
 import Navigation from '../components/navigation/Navigation'
 
 function TagPage() {

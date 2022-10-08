@@ -6,6 +6,7 @@ import FaqPage from "./pages/FaqPage.jsx";
 import TagsPage from "./pages/TagsPage.jsx";
 import TagPage from "./pages/TagPage.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
+import DetailPage from './pages/DetailPage.jsx'
 import { Outlet } from "react-router-dom";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -17,6 +18,25 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <TimelinePage />,
+    children:[
+      {
+        
+      }
+    ]
+  },
+  {
+    path: "/timeline",
+    element: <PagesWrapper />,
+    children:[
+      {
+        path: "",
+        element: <TimelinePage />,
+      },
+      {
+        path: "detail",
+        element: <DetailPage />,
+      }
+    ]
   },
   {
     path: "/stories",

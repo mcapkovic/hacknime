@@ -10,8 +10,7 @@ function Navigation() {
     <div className="navigation">
       <div className="navigation__tabs">
         <NavLink
-          end
-          to="/"
+          to="/timeline"
           className="navigation__tabs__tab navigation__tabs__tab1"
         >
           {({ isActive }) => (

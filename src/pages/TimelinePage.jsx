@@ -11,7 +11,7 @@ function TimelinePage() {
        window.scrollTo(0, 0);
        const allTexts =  document.querySelectorAll("text")
        allTexts.forEach(element => {
-        element.onclick= () => navigate('stories/story') 
+        element.onclick= () => navigate('/timeline/detail') 
         element.classList.add("pointer")
        })
     },[])
