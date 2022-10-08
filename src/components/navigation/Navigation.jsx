@@ -46,6 +46,18 @@ function Navigation() {
             </>
           )}
         </NavLink>
+        <NavLink
+          to="/about"
+          className="navigation__tabs__tab navigation__tabs__tab4"
+        >
+          {({ isActive }) => (
+            <>
+              {isActive ? <UnderlineSvg /> : null}
+              <div>About</div>
+
+            </>
+          )}
+        </NavLink>
       </div>
       <NavSvg />
     </div>

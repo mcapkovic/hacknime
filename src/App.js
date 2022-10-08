@@ -5,6 +5,8 @@ import StoriesPage from "./pages/StoriesPage.jsx";
 import FaqPage from './pages/FaqPage.jsx'
 import TagsPage from './pages/TagsPage.jsx'
 import TagPage from './pages/TagPage.jsx'
+import AboutPage from './pages/AboutPage.jsx'
+
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -36,6 +38,10 @@ const router = createBrowserRouter([
         element: <TagPage />,
       }
     ]
+  },
+  {
+    path: "/about",
+    element: <AboutPage />,
   },
 ]);
 
