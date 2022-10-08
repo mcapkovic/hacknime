@@ -1,16 +1,16 @@
 import React from "react";
-import Story from "../components/stories/StorySvg";
+import Stories from "../components/stories/Stories"
 import Navigation from '../components/navigation/Navigation'
 
-function StoryPage() {
+function StoriesPage() {
   return (
     <div className="page">
       <div className="page__content">
         <Navigation />
-        <Story />
+        <Stories />
       </div>
     </div>
   );
 }
 
-export default StoryPage;
+export default StoriesPage;

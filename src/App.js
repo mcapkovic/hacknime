@@ -9,12 +9,24 @@ const router = createBrowserRouter([
     element: <TimelinePage />,
   },
   {
-    path: "/story",
+    path: "/stories",
     element: <StoryPage />,
+    children: [
+      {
+        path: "story",
+        element: <StoryPage />,
+      },
+    ]
   },
   {
     path: "/tags",
     element: <StoryPage />,
+    children:[
+      {
+        path: "tag",
+        element: <StoryPage />,
+      },
+    ]
   },
 ]);
 

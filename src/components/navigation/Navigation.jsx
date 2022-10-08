@@ -23,7 +23,7 @@ function Navigation() {
           )}
         </NavLink>
         <NavLink
-          to="/story"
+          to="/stories"
           className="navigation__tabs__tab navigation__tabs__tab2"
         >
           {({ isActive }) => (
