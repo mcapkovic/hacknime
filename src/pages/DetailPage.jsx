@@ -1,5 +1,7 @@
 import React from "react";
 import DetailSvg from "../components/timeline/DetailSvg";
+import Breadcrumb from "../components/timeline/Breadcrumb";
+
 // import { useNavigate } from 'react-router-dom';
 import Navigation from '../components/navigation/Navigation'
 
@@ -20,6 +22,7 @@ function DetailPage() {
     <div className="page">
       <div className="page__content">
         <Navigation />
+        <Breadcrumb />
         <DetailSvg />
       </div>
     </div>
