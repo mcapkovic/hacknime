@@ -9,6 +9,10 @@
   margin: 2rem;
 }
 
+.page__content__breadcrumb{
+  margin-top: -5px;
+}
+
 .story{
     cursor: pointer;
 }
